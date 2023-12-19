@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="film_db.InfoPage"
+             Title="InfoPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <!-- Zajmuje większość przestrzeni -->
+            <RowDefinition Height="Auto"/>
+            <!-- Dla przycisku Back -->
+        </Grid.RowDefinitions>
+
+        <!-- Tutaj możesz umieścić inne elementy -->
+
+        <!-- Przycisk Back -->
+        <Button Grid.Row="1" 
+                Text="Back" 
+                Clicked="OnBackClicked" 
+                WidthRequest="200" 
+                HorizontalOptions="Start" 
+                VerticalOptions="End" 
+                Margin="20"/>
+    </Grid>
+</ContentPage>

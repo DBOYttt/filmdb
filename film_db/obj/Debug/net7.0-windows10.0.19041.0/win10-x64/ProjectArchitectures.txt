@@ -1,0 +1,1 @@
+C:\Users\andrz\source\repos\film_db\film_db.csproj;x64
